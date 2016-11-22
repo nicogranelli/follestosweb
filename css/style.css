@@ -1,0 +1,61 @@
+/*
+colors
+======
+purpura oscuro    #	(82,53,115)
+purpura           #23c84e	(87,57,127)
+purpura claro     #00a37e	(91,71,147)
+rosa              #008ab0	(235,99,167)
+violeta rojizo    #004e8b	(227,37,132)
+
+http://www.color-hex.com/color-palette/26495
+negro         #2d3336	(45,51,54)
+azul          #009b9b	(0,155,155)
+verde         #6abc6e	(106,188,110)
+gris_oscuro   #999999	(153,153,153)
+gris_claro    #f6f6f6	(246,246,246)
+
+#2de966	(45,233,102)
+#23c84e	(35,200,78)
+#00a37e	(0,163,126)
+#008ab0	(0,138,176)
+#004e8b	(0,78,139)
+*/
+body{
+  background-color: #f6f6f6;
+  font-size: 14px;
+}
+nav{
+  background-color: #009b9b;
+}
+.brand{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color:#2d3336;
+}
+
+.folleto.card .card-title{
+  background-color: #2d3336;
+  color:#999999;
+  font-weight: bolder;
+  padding: 5px;
+  text-align: center;
+}
+
+.card-image img{
+    border-radius: 0 !important;
+}
+.folleto.card .card-title h1{
+  font-size:1.2em;
+  margin: 0 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.telefonos .btn{
+  /*font-size:0.8em;*/
+  padding: 0px 10px;
+  margin-bottom:10px;
+  color: #2d3336;
+  background-color:#009b9b;
+  font-weight: bold;
+}
