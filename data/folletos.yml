@@ -1,0 +1,21 @@
+data:
+  - titulo: 'Zombie Party'
+    imagen: 'folletos/ZombieParty.jpg'
+    imprenta: 'tu hermana'
+    filename: 'zombies.html'
+    telefonos:
+      - raw: '+011354115582787'
+        display: '(3541) 15582787'
+      - raw: '+011354115664046'
+        display: '(3541) 15664046'
+  - titulo: 'Yerli - Refigreración'
+    imagen: 'folletos/Antikulture_2.jpg'
+    imprenta: 'tu hermana'
+    filename: 'yerli.html'
+    telefonos:
+      - raw: '+011354115582787'
+        display: '(3541) 15582787'
+      - raw: '+011354115664046'
+        display: '(3541) 15664046'
+#  - titulo: 'Zombies!!!'
+#    imprenta: 'tu hermana'

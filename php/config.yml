@@ -1,0 +1,4 @@
+convert:
+  folletos:
+    data: 'folletos.yml'
+    template: 'folleto-simple-vertical.html'

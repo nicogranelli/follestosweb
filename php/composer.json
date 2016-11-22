@@ -1,0 +1,8 @@
+{
+    "require": {
+        "mustache/mustache": "^2.11",
+        "league/glide": "^1.2",
+        "anahkiasen/underscore-php": "^2.0",
+        "symfony/yaml": "^3.1"
+    }
+}
