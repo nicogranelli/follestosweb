@@ -17,15 +17,6 @@
     </head>
 
     <body>
-      <!--
-      <div class="header">
-        <div class="container">
-          <div class="brand">
-            FolletosWeb
-          </div>
-        </div>
-      </div>
-      -->
       <nav>
         <div class="nav-wrapper">
           <div class="container">
@@ -38,10 +29,9 @@
       <div class="container">
         <div class="folleto card z-depth-3">
           <div class="card-image" width="900px" height="500px" style="width:100%;max-width:100%">
-            <img src="folletos/Antikulture_2.jpg" style="width:100%;max-width:100%" alt="" />
-            <!--
-            <img src="/folletos/900x500.png" style="width:100%;max-width:100%" alt="" />
-            -->
+            <a class="m-magnifik" href="folletos/Antikulture_2.jpg">
+              <img src="folletos/Antikulture_2.jpg" style="width:100%;max-width:100%" alt="" />
+            </a>
           </div>
           <div class="card-title"><h1>Yerli - Refigreración</h1></div>
         </div>
@@ -63,5 +53,7 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/magnifik.min.js"></script>
+      <script>$('a.m-magnifik').magnifik();</script>
     </body>
   </html>
